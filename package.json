@@ -1,0 +1,15 @@
+{
+  "name": "rabbitmq-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:producer": "pnpm --filter 'producer' start",
+    "start:consumer": "pnpm --filter 'consumer' start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4"
+  }
+}
